@@ -106,10 +106,20 @@ body {
   gap: 1rem;
 }
 
-.site-header nav a {
+.site-header nav a,
+.site-header nav .nav-link {
   color: var(--ink-soft);
   text-decoration: none;
   font-weight: 500;
+}
+
+.brand-button,
+.nav-link {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
 }
 
 .hero {
